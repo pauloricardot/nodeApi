@@ -1,0 +1,22 @@
+[{
+  "url": "/assets/products.json",
+  "id": "DiflyS3",
+  "name": "Difly S3 6 kg",
+  "price": 1422.04,
+  "image": "https://www.champion.ind.br/loja/media/catalog/product/cache/1/small_image/295x/9df78eab33525d08d6e5fb8d27136e95/d/i/difly_s3_6_kg_1.jpg",
+  "description": "Controle do carrapato e da mosca-dos-chifres.Sem manejo, sem resistência e sem resíduo na carne ou..."
+}, {
+  "url": "/assets/products.json",
+  "id": "Difly",
+  "name": "Difly 6 kg",
+  "price": 2514.50,
+  "image": "https://www.champion.ind.br/loja/media/catalog/product/cache/1/small_image/295x/9df78eab33525d08d6e5fb8d27136e95/d/i/difly_mosca_6kg.jpg",
+  "description": "Sem manejo, sem resistência e sem resíduo na carne ou no leite."
+}, {
+  "url": "/assets/products.json",
+  "id": "light",
+  "name": "VER-MI-SAL 10 kg",
+  "price": 1399.01,
+  "image": "https://www.champion.ind.br/loja/media/catalog/product/cache/1/small_image/295x/9df78eab33525d08d6e5fb8d27136e95/v/e/vermisal_10_kg_4_1.jpg",
+  "description": "VER-MI-SAL é um concentrado de microminerais, que além de mineralizar o sal branco tem função de..."
+}]

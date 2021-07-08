@@ -1,31 +1,45 @@
 {
-  "name": "nodeApi",
+  "name": "chp_server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Servidor",
+  "main": "app.js",
+  "author": {
+    "name": "Paulo Ricardo"
+  },
+  "engines": {
+    "node": "12.x"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "set NODE_ENV=prod && node app.js",
+    "start": "export NODE_ENV=prod && node app.js",
+    "start3": "nodemon app.js",
+    "start2": "nodemon node --inspect app.js",
+    "prod_Windows": "set NODE_ENV=production && node app.js",
+    "dev_windows": "set NODE_ENV=dev && node app.js",
+    "prod_Linux_Mac": "export NODE_ENV=production && node app.js",
+    "dev_Linux_Mac": "export NODE_ENV=dev && node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pauloricardot/nodeApi.git"
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv-safe": "^8.1.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "glob": "^7.1.7",
+    "helmet": "^3.22.0",
+    "jsonwebtoken": "^8.5.1",
+    "moip-sdk-node": "^1.2.4",
+    "moment": "^2.27.0",
+    "mongoose": "^5.9.17",
+    "nodemailer": "^6.4.8",
+    "path": "^0.12.7",
+    "uuid": "^8.1.0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/pauloricardot/nodeApi/issues"
-  },
-  "homepage": "https://github.com/pauloricardot/nodeApi#readme",
   "devDependencies": {
-    "@types/node": "^16.0.0",
-    "@typescript-eslint/eslint-plugin": "^4.28.1",
-    "eslint": "^7.30.0",
-    "eslint-config-standard-with-typescript": "^20.0.0",
-    "eslint-plugin-import": "^2.23.4",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.3.1",
-    "git-commit-msg-linter": "^3.2.6",
-    "typescript": "^4.3.5"
+    "nodemon": "^2.0.9",
+    "swagger-ui-express": "^4.1.6"
   }
 }
